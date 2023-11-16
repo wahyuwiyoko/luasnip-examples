@@ -5,7 +5,6 @@ local insert = luasnip.insert_node
 local format = require("luasnip.extras.fmt").fmt
 
 -- choice(position, { list_of_choice })
--- Use Ctrl-l to switch between choice node
 local choice = luasnip.choice_node
 
 -- Examples
